@@ -69,46 +69,9 @@ const HomePage: NextPage = () => {
             </Card>
           </Cards>
         </Section>
-
-        <Section>
-          <SubTitle>Conditional Button</SubTitle>
-          <ButtonGroup>
-            <Button>Primary</Button>
-            <Button outline>Primary Outline</Button>
-          </ButtonGroup>
-          <ButtonGroup>
-            <Button disabled>Primary Disabled</Button>
-            <Button outline disabled>
-              Primary Outline Disabled
-            </Button>
-          </ButtonGroup>
-          <ButtonGroup>
-            <Button danger>Danger</Button>
-            <Button danger outline>
-              Danger Outline
-            </Button>
-          </ButtonGroup>
-          <ButtonGroup>
-            <Button danger disabled>
-              Danger Disabled
-            </Button>
-            <Button danger outline disabled>
-              Danger Outline Disabled
-            </Button>
-          </ButtonGroup>
-        </Section>
       </Main>
 
-      <Footer>
-        <FooterCopyRight
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </FooterCopyRight>
-      </Footer>
+     
     </Container>
   );
 };
